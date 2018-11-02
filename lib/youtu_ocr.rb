@@ -4,6 +4,7 @@ require 'json'
 require 'youtu_ocr/access_token'
 
 module YoutuOcr
+  extend self
 
   OCR_URL = {
     id_card: "#{@end_point}idcardocr",
